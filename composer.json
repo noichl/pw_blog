@@ -1,0 +1,14 @@
+{
+  "name": "noichl/blog",
+  "authors": [
+    {
+      "name": "Marinus Noichl",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Noichl\\Blog": "src/"
+    }
+  }
+}
