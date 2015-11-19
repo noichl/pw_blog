@@ -40,6 +40,4 @@ class Tag {
 	function __toString(): \string{
 		return $this->getName();
 	}
-
-
 }
