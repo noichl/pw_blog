@@ -1,5 +1,5 @@
 <?php
-namespace Noichl\Blog;
+namespace Noichl\Blog\Exception;
 
 /**
  * Class AccessException represents a Exception indicating access violations.

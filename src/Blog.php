@@ -1,5 +1,6 @@
 <?php
 namespace Noichl\Blog;
+use Noichl\Blog\Exception\AccessException;
 
 /**
  * Class Blog represents a blog.

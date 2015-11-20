@@ -1,0 +1,21 @@
+<phpunit colors="true"
+         bootstrap="vendor/autoload.php"
+         stopOnFailure="false">
+
+    <testsuites>
+        <testsuite name="all">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true" processUncoveredFilesFromWhitelist="false">
+            <directory>src</directory>
+        </whitelist>
+    </filter>
+
+    <logging>
+        <!--<log type="coverage-clover" target="build/tests/coverage.xml" />-->
+    </logging>
+
+</phpunit>

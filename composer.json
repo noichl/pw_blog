@@ -8,7 +8,10 @@
   ],
   "autoload": {
     "psr-4": {
-      "Noichl\\Blog\\": "src/"
+      "Noichl\\Blog\\": ["src/", "tests/"]
     }
+  },
+  "require": {
+    "phpunit/phpunit": "^5.0"
   }
 }
